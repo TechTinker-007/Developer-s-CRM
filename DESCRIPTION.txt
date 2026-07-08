@@ -1,0 +1,24 @@
+> Note: GitHub's "About" description field on a repo page has a ~350-character limit, not word limit.
+> Use the **Short About Blurb** below for that field, and this longer version for your
+> README intro, portfolio, LinkedIn post, or anywhere a fuller pitch is useful.
+
+## Short About Blurb (for GitHub's "About" field)
+Real Estate CRM is a fast, single-file React + Supabase dashboard for managing leads, channel partners, and post-sale members — with a Kanban pipeline, lock-in conflict detection, and role-based access enforced server-side. Live demo linked below.
+
+---
+
+## Full Description
+
+Real Estate CRM is a lightweight lead-management dashboard built for real estate sales teams who need a Kanban-style pipeline, Channel Partner (CP) tracking, and post-sale member management without the overhead of a full enterprise CRM. It's built as a single static `index.html` — React loaded via CDN, compiled in-browser with Babel — backed by Supabase (Postgres + Auth + Realtime), with no build step required.
+
+The core workflow follows a lead from first contact through to a booked sale: leads move across an Open → Site Visited → Booked/Rejected board, with rich detail per lead (customer info, configuration, budget tier, property type, entry type) and follow-up scheduling. Channel Partner leads carry a lock-in period tied to a specific CP firm and staff member, and the app automatically flags conflicts when a phone number is already locked in elsewhere — a common source of disputes in real estate sales that this tool catches before it becomes a problem.
+
+Once a lead is booked, it converts into a tracked member with a monthly EMI schedule, paid/bounced tracking per installment, and automatic penalty interest calculation on late payments. A dashboard surfaces lead counts, conversion trends, and upcoming follow-ups, alongside a calendar view and a global search across leads, phone numbers, and CP firms/staff.
+
+Access is role-based and enforced server-side: CEOs have full access including deletes, while Sales users get day-to-day access without delete rights — all backed by Supabase Row Level Security rather than client-side checks. Every connected user sees changes in real time via Supabase Realtime, with optimistic UI updates and conflict-resolution notices when a record is edited by someone else mid-update.
+
+The product is deliberately scoped as a single-file, no-bundler app so it's easy to audit, deploy, and self-host — the trade-off, and what makes the RLS policies non-negotiable, is that the entire client is visible source the moment it's deployed (see the Security section in the README).
+
+Real Estate CRM is deployed on Vercel and actively maintained. The live product is available to explore at the link below.
+
+**Live demo:** _add your deployment link here_

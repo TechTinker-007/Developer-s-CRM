@@ -1,0 +1,28 @@
+Copyright (c) 2026 [Your Name / Company Name]. All Rights Reserved.
+
+This software and associated source code (the "Software") are the
+proprietary property of the copyright holder. No license, express or
+implied, is granted to any person to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, in whole or
+in part, without the prior written permission of the copyright holder.
+
+Viewing a deployed instance of this Software (e.g. a hosted demo) does
+not grant any rights under this license. Access to a public demo is
+provided solely for evaluation purposes and does not constitute
+permission to copy, reuse, or redistribute the underlying source code.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+Note: This is a proprietary/"all rights reserved" license, chosen because
+the stated intent is to prevent others from reusing the code. It has no
+bearing on whether someone can *view* the client-side source of a public
+demo (they always can — see README.md § Security) — it only governs the
+legal right to reuse it. If you'd prefer an open-source license (e.g. MIT)
+instead, replace this file accordingly.
