@@ -2,7 +2,21 @@
 
 A fast, single-file real estate lead management dashboard — built for sales teams who need a pipeline, channel partner tracking, and post-sale member management without the overhead of a full CRM suite.
 
+
+
 🔗 **Live app:** [(https://developer-s-crm.vercel.app/)](https://developer-s-crm.vercel.app/)
+
+
+
+
+🚀 Demo Login Credentials
+
+📧 Email: demo.user@gmail.com
+
+
+🔑 Password: Demo.123
+
+Use the above credentials to explore the live demo.
 
 
 🔒 Read the [Security](#security) section before sharing a demo link publicly — it explains exactly what is and isn't protectable in an app like this, and what this repo does about it.
