@@ -55,15 +55,6 @@ Email/password sign-in via Supabase Auth (no self-service signup by default). Tw
 
 ---
 
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Frontend | React 18 (CDN + Babel, no bundler) |
-| Backend / Database | Supabase (Postgres + Auth + Realtime) |
-| Hosting | Vercel static hosting |
-
-
 ## Status
 
 Real Estate CRM is actively developed in scoped, additive batches — new features ship without breaking what already works. The live deployment link above always reflects the current version.
