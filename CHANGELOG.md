@@ -1,4 +1,4 @@
-# Changelog — Real Estate CRM
+# Changelog — Real Estate Builder CRM
 
 The story of this app so far: from a bare lead list to a role-secured, real-time sales platform. Every phase below builds directly on the one before it — nothing was ripped out to get here.
 
