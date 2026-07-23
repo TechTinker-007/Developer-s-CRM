@@ -1,4 +1,4 @@
-# Real Estate CRM
+# Real Estate Builder CRM
 
 A fast, single-file real estate lead management dashboard — built for sales teams who need a pipeline, channel partner tracking, and post-sale member management without the overhead of a full CRM suite.
 
